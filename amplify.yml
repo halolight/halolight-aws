@@ -1,0 +1,21 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - echo "Installing pnpm..."
+        - npm install -g pnpm@10.23.0
+        - echo "Installing dependencies..."
+        - pnpm install
+    build:
+      commands:
+        - echo "Building application..."
+        - pnpm run build
+  artifacts:
+    baseDirectory: .next
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
+      - .next/cache/**/*
