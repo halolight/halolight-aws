@@ -107,8 +107,8 @@ halolight-aws/
 ## 相关链接
 
 - [HaloLight 文档](https://halolight.docs.h7ml.cn)
-- [AWS Amplify 文档](https://docs.amplify.aws/)
-- [AWS Amplify Next.js](https://docs.amplify.aws/nextjs/)
+- [AWS Amplify 文档](https:/docs.amplify.aws/)
+- [AWS Amplify Next.js](https:/docs.amplify.aws/nextjs/)
 
 ## 许可证
 
